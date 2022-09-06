@@ -1,0 +1,1530 @@
+test_time `30 * 60 * 1000`
+test_questions 20
+
+multi_choices [
+  {
+    question "Trong trường hợp nào dưới đây có thể coi một đoàn tàu như một chất điểm?"
+    choices [
+      "Đoàn tàu lúc khởi hành."
+      "Đoàn tàu đang qua cầu."
+      "Đoàn tàu đang chạy trên một đoạn đường vòng."
+      "Đoàn tàu đang chạy trên đường Hà Nội -Vinh."
+    ]
+    answer "3"
+  }
+  {
+    question "Một người đứng trên đường quan sát chiếc ô tô chạy qua trước mặt. Dấu hiệu nào cho biết ô tô đang chuyển động?"
+    choices [
+      "Khói phụt ra từ ống thoát khí đặt dưới gầm xe."
+      "Khoảng cách giữa xe và người đó thay đổi."
+      "Bánh xe quay tròn."
+      "Tiếng nổ của động cơ vang lên."
+    ]
+    answer "1"
+  }
+  {
+    question "Trong các ví dụ dưới đây, trường hợp nào vật chuyển động được coi như là chất điểm?"
+    choices [
+      "Mặt Trăng quay quanh Trái Đất."
+      "Đoàn tàu chuyển động trong sân ga."
+      "Em bé trượt từ đỉnh đến chân cầu trượt."
+      "Chuyển động tự quay của Trái Đất quanh trục."
+    ]
+    answer "0"
+  }
+  {
+    question "Chọn đáp án đúng."
+    choices [
+      "Quỹ đạo là một đường thẳng mà trên đó chất điểm chuyển động."
+      "Một đường cong mà trên đó chất điểm chuyển động gọi là quỹ đạo."
+      "Quỹ đạo là một đường mà chất điểm vạch ra trong không gian khi nó chuyển động."
+      "Một đường vạch sẵn trong không gian trên đó chất điểm chuyển động gọi là quỹ đạo."
+    ]
+    answer "2"
+  }
+  {
+    question "Khi chọn Trái Đất làm vật mốc thì câu nói nào sau đây đúng?"
+    choices [
+      "Trái Đất quay quanh Mặt Trời."
+      "Mặt Trời quay quanh Trái Đất."
+      "Mặt Trời đứng yên còn Trái Đất chuyển động."
+      "Cả Mặt Trời và Trái Đất đều chuyển động."
+    ]
+    answer "1"
+  }
+  {
+    question "Hành khách trên tàu A thấy tàu B đang chuyển động về phía trước. Còn hành khách trên tàu B lại thấy tàu C cũng đang chuyển động về phía trước. Vậy hành khách trên tàu A sẽ thấy tàu C:"
+    choices [
+      "Đứng yên."
+      "Chạy lùi về phía sau."
+      "Tiến về phía trước."
+      "Tiến về phía trước rồi sau đó lùi về phía sau."
+    ]
+    answer "2"
+  }
+  {
+    question "Người lái đò đang ngồi yên trên chiếc thuyền thả trôi theo dòng nước. Trong các câu mô tả sau đây, câu nào đúng?"
+    choices [
+      "Người lái đò đứng yên so với dòng nước."
+      "Người lái đò chuyển động so với dòng nước."
+      "Người lái đò đứng yên so với bờ sông."
+      "Người lái đò chuyển động so với chiếc thuyền."
+    ]
+    answer "0"
+  }
+  {
+    question "Trong trường hợp nào dưới đây quỹ đạo của vật là đường thẳng?"
+    choices [
+      "Chuyển động của vệ tinh nhân tạo của Trái Đất."
+      "Chuyển động của con thoi trong rãnh khung cửi."
+      "Chuyển động của đầu kim đồng hồ."
+      "Chuyển động của một vật được ném theo phương nằm ngang."
+    ]
+    answer "1"
+  }
+  {
+    question "Lúc 8 giờ sáng nay một ô tô đang chạy trên Quốc lộ 1 cách Hà Nội 20 km. Việc xác định vị trí của ô tô như trên còn thiếu yếu tố nào?"
+    choices [
+      "Mốc thời gian."
+      "Vật làm mốc."
+      "Chiều dương trên đường đi."
+      "Thước đo và đồng hồ."
+    ]
+    answer "2"
+  }
+  {
+    question "Trường hợp nào dưới đây có thể coi vật là chất điểm ?"
+    choices [
+      "Trái Đất trong chuyển động tự quay quanh mình nó."
+      "Hai hòn bi lúc va chạm với nhau."
+      "Người nhảy cầu lúc đang rơi xuống nước."
+      "Giọt nước mưa lúc đang rơi."
+    ]
+    answer "3"
+  }
+  {
+    question "Trong các cách chọn hệ trục tọa độ và mốc thời gian dưới đây, cách nào thích hợp nhất để xác định vị trí của một máy bay đang bay trên đường dài?"
+    choices [
+      "Khoảng cách đến ba sân bay lớn; t = 0 là lúc máy bay cất cánh."
+      "Khoảng cách đến ba sân bay lớn; t = 0 là lúc 0 giờ quốc tế."
+      "Kinh độ, vĩ độ địa lí và độ cao của máy bay; t = 0 là lúc máy bay cất cánh."
+      "Kinh độ, vĩ độ địa lí và độ cao của máy bay; t = 0 là 0 giờ quốc tế."
+    ]
+    answer "3"
+  }
+  {
+    question "Hệ quy chiếu bao gồm"
+    choices [
+      "vật làm mốc, hệ toạ độ, mốc thời gian."
+      "hệ toạ độ, mốc thời gian, đồng hồ."
+      "vật làm mốc, mốc thời gian và đồng hồ."
+      "vật làm mốc, hệ toạ độ, mốc thời gian và đồng hồ."
+    ]
+    answer "3"
+  }
+  {
+    question "Chọn phát biểu sai"
+    choices [
+      "Trong chuyển động thẳng biến đổi đều, quãng đường đi được trong những khoảng thời gian bằng nhau thì bằng nhau."
+      "Gia tốc của chuyển động biến đổi đều có độ không đổi."
+      "Vectơ gia tốc của chuyển động thẳng biến đổi đều có thể cùng chiều hoặc ngược chiều với vectơ vận tốc."
+      "Vận tốc tức thời của chuyển động thẳng biến đổi đều có độ lớn tăng hoặc giảm đều theo thời gian."
+    ]
+    answer "0"
+  }
+  {
+    question "Chọn phát biểu đúng :"
+    choices [
+      "Gia tốc của chuyển động thẳng nhanh dần đều bao giờ cũng lớn hơn gia tốc của chuyển động thẳng chậm dần đều."
+      "Chuyển động thẳng nhanh dần đều có gia tốc lớn thì có vận tốc lớn."
+      "Chuyển động thẳng biến đổi đều có gia tốc tăng, giảm đều theo thời gian."
+      "Gia tốc trong chuyển động thẳng nhanh dần đều có phương, chiều và độ lớn không đổi."
+    ]
+    answer "3"
+  }
+  {
+    question "Chuyển động thẳng chận dần đều có"
+    choices [
+      "Quĩ đạo là đường cong bất kì."
+      "Độ lớn vectơ gia tốc là một hằng số, ngược chiều với vectơ vận tốc của vật."
+      "Quãng đường đi được của vật không phụ thuộc vào thời gian."
+      "Vectơ vận tốc vuông góc với quĩ đạo của chuyển động."
+    ]
+    answer "1"
+  }
+  {
+    question "Để đặc trưng cho chuyển động về sự nhanh, chậm và về phương chiều, ngưởi ta đưa ra khái niệm"
+    choices [
+      "Vectơ gia tốc tức thời"
+      "Vectơ gia tốc trung bình"
+      "Vectơ vận tốc tức thời"
+      "Vectơ vận tốc trung bình"
+    ]
+    answer "2"
+  }
+  {
+    question "Trong công thức liên hệ giữa quãng đường đi được, vận tốc và gia tốc (v2 – v02 =2as) của
+chuyển động thẳng nhanh dần đều, ta có các điều kiện nào dưới đây?"
+    choices [
+      "s > 0; a > 0; v > v0."
+      "s > 0; a < 0; v < v0."
+      "s > 0; a > 0; v < v0."
+      "s > 0; a < 0; v > v0."
+    ]
+    answer "0"
+  }
+  {
+    question "bình từ thời điểm t1 =0,75s đến t2 =3s bằng
+Một vật chuyển động trên đường thẳng theo phương trình x= -t2 +2t (m;s). Tốc độ trung"
+    choices [
+      "3,6 m/s"
+      "9,2 m/s"
+      "2,7 m/s"
+      "1,8 m/s"
+    ]
+    answer "3"
+  }
+  {
+    question "và dừng lại sau 20s. Chọn chiều dương là chiều chuyển động của ô tô. Sau 10s kể từ lúc
+Một ôtô đang chuyển động với vận tốc 72 km/h thì hãm phanh chuyển động chậm dần đều
+hãm phanh, ôtô đi được quãng đường"
+    choices [
+      "150m"
+      "200m"
+      "250m"
+      "100m"
+    ]
+    answer "0"
+  }
+  {
+    question "Một ôtô chuyển động trên dường thẳng, bắt đầu khởi hành nhanh dần đều với gia tốc a1
+=5m/s2, sau đó chuyển động thẳng đều và cuối cùng chuyển động chậm dần đều với gia tốc
+a3 =-5m/s2 cho đến khi dừng lại. Thời gian ôtô chuyển động là 25s. Tốc độ trung bình của
+ôtô trên cả đoạn đường là 20 m/s. Trong giai đoạn chuyển động thẳng đều ôtô đạt vận tốc."
+    choices [
+      "20 m/s."
+      "27 m/s."
+      "25 m/s."
+      "32 m/s."
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn phát biểu sai"
+    choices [
+      "Khi rơi tự do tốc độ của vật tăng dần."
+      "Vật rơi tự do khi lực cản không khí rất nhỏ so với trọng lực."
+      "Vận động viên nhảy dù từ máy bay xuống mặt đất sẽ rơi tự do."
+      "Rơi tự do có quỹ đạo là đường thẳng."
+    ]
+    answer "2"
+  }
+  {
+    question "Vật rơi tự do"
+    choices [
+      "Khi từ nơi rất cao xuống mặt đất."
+      "Khi hợp lực tác dụng vào vật hướng thẳng xuống mặt dất."
+      "Chỉ dưới tác dụng của trọng lực."
+      "Khi vật có khối lượng lớn rơi từ cao xuống mặt đất."
+    ]
+    answer "2"
+  }
+  {
+    question "Hai vật A và B rơi từ cùng một độ cao, sau 3 giây kể từ lúc vật B bắt đầu rơi, khoảng cách giữa vật A và B là 30m. Bỏ qua sức cản không khí. Lấy g = 10m/s2. Vật B rơi trễ hơn vật A sau khoảng thời gian"
+    choices [
+      "2,813 s."
+      "0,750 s."
+      "0,956 s."
+      "0,873 s."
+    ]
+    answer "3"
+  }
+  {
+    question "Tại mặt đất, hai vật được ném thẳng đứng lên cao với cùng vận tốc v0 = 40m/s, vật thứ II ném sau vật thứ I là 3s. Lấy g = 10m/s2, bỏ qua sức cản không khí. Hai vật gặp nhau sau khi ném ở độ cao"
+    choices [
+      "75,63m."
+      "68,75m."
+      "56,43m."
+      "87,25m."
+    ]
+    answer "1"
+  }
+  {
+    question "Vật chuyển động tròn đều có gia tốc là do vận tốc"
+    choices [
+      "Có độ lớn thay đổi."
+      "Luôn hướng vào tâm quỹ đạo."
+      "Có hướng thay đổi."
+      "Có độ lớn và hướng luôn thay đổi."
+    ]
+    answer "1"
+  }
+  {
+    question "Chọn phát biểu sai."
+    choices [
+      "Lực hấp dẫn của Trái Đất tác dụng lên Mặt Trăng là lực hướng tâm."
+      "Lực hướng tâm tác dụng lên một vật chuyển động tròn đều có độ lớn tỉ lệ với bình phương tốc độ dài của vật."
+      "Khi một vật chuyển động tròn đều, hợp lực của các lực tác dụng lên vật là lực hướng tâm."
+      "Gia tốc hướng tâm tỉ lệ nghịch với khối lượng vật chuyển động tròn đều."
+    ]
+    answer "3"
+  }
+  {
+    question "Một đĩa đặc đồng chất có hình dạng tròn bán kính 20cm đang quay tròn đều quanh trục của nó. Hai điểm A và B nằm trên cùng một đường kính của đĩa. Điểm A nằm trên vành đĩa, điểm B cách A 5cm. Tỉ số gia tốc hướng tâm của điểm A và điểm B là"
+    choices [
+      "4/3."
+      "16/9."
+      "3/4."
+      "44090.0"
+    ]
+    answer "0"
+  }
+  {
+    question "Một con tàu vũ trụ chuyển động tròn đều quanh trái đất mỗi vòng hết 2 giờ. Con tàu bay ở độ cao h=400km cách mặt đất, bán kính trái đất 6400km. Tốc độ của con tàu gần giá trị nào nhất sau đây?"
+    choices [
+      "1890 m/s"
+      "4320 m/s"
+      "6820 m/s"
+      "5930 m/s"
+    ]
+    answer "3"
+  }
+  {
+    question "Phát biểu nào sau đây về lực là đúng?"
+    choices [
+      "Khi không có lực tác dụng lên vật, vật không chuyển động."
+      "Lực làm cho vật bị biến dạng hoặc làm thay đổi vận tốc của vật."
+      "Lực làm cho vật bị biến dạng hoặc làm thay đổi vận tốc của vật."
+      "Khi lực tác dụng lên vật thì vận tốc của vật luôn tăng dần."
+    ]
+    answer "2"
+  }
+  {
+    question "Quả bóng khối lượng 300 g bay với tốc độ 72 km/h đến đập vào một bức tường rồi bật lại với độ lớn tốc độ không đổi. Biết va chạm của bóng với tường tuân theo định luật phản xạ của gương phẳng (góc phản xạ bằng góc tới) và bóng đến đập vào tường với góc tới 30°, thời gian va chạm là 0,01 s. Lực do tường tác dụng lên bóng bằng"
+    choices [
+      "600 N."
+      "200√3 N."
+      "300√3 N."
+      "600√3 N."
+    ]
+    answer "3"
+  }
+  {
+    question "Trong trò chơi kéo co thì"
+    choices [
+      "Người thắng kéo người thua một lực lớn hơn."
+      "Người thắng kéo người thua một lực bằng với người thua kéo người thắng."
+      "Người thua kéo người thắng một lực bé hơn."
+      "Người thắng có thể kéo người thua một lực lớn hơn và cũng có thể bé hơn."
+    ]
+    answer "1"
+  }
+  {
+    question "Một người dùng búa đóng đinh vào sàn gỗ. Nhận định nào sau đây đúng?"
+    choices [
+      "Búa tác dụng lên đinh một lực lớn hơn đinh tác dụng lực lên búa."
+      "Chỉ có búa tác dụng lực lên đinh."
+      "Búa và đinh cùng tác dụng lên nhau hai lực bằng nhau."
+      "Đinh cắm sâu vào gỗ vì chỉ có đinh thu được gia tốc."
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật khối lượng m = 1 kg đang chuyển động trên đường nằm ngang không ma sát, với tốc độ v0 thì chịu tác dụng của lực F ⃗, lực F ⃗ có độ lớn 6 N và ngược hướng với chuyển động của vật. Chiều dương là chiều chuyển động. Gia tốc của vật bằng"
+    choices [
+      "- 6 m/s2."
+      "3 m/s2."
+      "- 3 m/s2."
+      "6 m/s2."
+    ]
+    answer "0"
+  }
+  {
+    question "Một ôtô chạy với vận tốc 60 km/h thì người lái xe hãm phanh, xe đi tiếp được quãng đường 50 m thì dừng lại. Hỏi nếu ôtô đang chạy với vận tốc 120 km/h thì quãng đường đi được từ lúc hãm phanh đến khi dừng lại là bao nhiêu? Biết lực hãm phanh trong hai trường hợp bằng nhau."
+    choices [
+      "100 m."
+      "70,7 m."
+      "141 m."
+      "200 m."
+    ]
+    answer "3"
+  }
+  {
+    question "Một mô tô có khối lượng 120 kg đang chuyển động trên đường thẳng ngang với tốc độ 79,2 km/h thì hãm phanh. Sau khi hãm, mô tô chạy thêm được 100 m thì dừng hẳn. Bỏ qua các lực cản bên ngoài. Lực hãm phanh có độ lớn gần giá trị nào nhất sau đây?"
+    choices [
+      "290 N."
+      "150 N."
+      "250 N."
+      "320 N."
+    ]
+    answer "0"
+  }
+  {
+    question "Vật có khối lượng m1 đang chuyển động với tốc độ 5,4 km/h đến và chạm vào vật có khối lượng m2 = 250 g đang đứng yên. Sau va chạm vật m1 dội lại với tốc độ 0,5 m/s còn vật m2 chuyển động với tốc độ 0,8 m/s. Biết hai vật chuyển động cùng phương. Khối lượng m1 bằng"
+    choices [
+      "350 g."
+      "200 g."
+      "100 g."
+      "150 g."
+    ]
+    answer "2"
+  }
+  {
+    question "Trên mặt bàn nằm ngang rất nhẵn có viên bi A khối lượng m đang đứng yên. Ta dùng viên bi B cũng có khối lượng là m bắn vào bi A với vận tốc v, sau va chạm bi A chuyển động cùng hướng với viên bi B trước va chạm và cũng có độ lớn vận tốc là v. Vận tốc bi B sau va chạm là bao nhiêu"
+    choices [
+      "0.0"
+      "v/4"
+      "v/2"
+      "v"
+    ]
+    answer "0"
+  }
+  {
+    question "Một viên đạn có khối lượng m = 10g đang bay với vận tốc v1 = 1000m/s thì gặp bức tường. Sau khi xuyên qua bức tường thì vận tốc viên đạn còn là v2 = 400m/s. Độ biến thiên động lượng của viên đạn là bao nhiêu?"
+    choices [
+      "6 kg.m/s"
+      "-6 kg.m/s"
+      "8 kg.m/s"
+      "-8kg.m/s"
+    ]
+    answer "1"
+  }
+  {
+    question "Cũng giả thiết của bài trên, lực cản trung bình của bức tường lên viên đạn có độ lớn là bao nhiêu, biết thời gian xuyên qua bức tường là 0,01s?"
+    choices [
+      "300N"
+      "400N"
+      "500N"
+      "600N"
+    ]
+    answer "3"
+  }
+  {
+    question "Một quả bóng có khối lượng m = 5g rơi xuống mặt sản từ độ cao h = 0,8m sau đó nảy lên tới cùng độ cao. Thời gian va chạm giữa bóng và mặt sàn là ∆t = 0,01s. Lấy g = 10m/s2. Độ lớn của lực tác dụng của sàn lên qua bóng là bao nhiêu?"
+    choices [
+      "2N"
+      "3N"
+      "4N"
+      "5N"
+    ]
+    answer "2"
+  }
+  {
+    question "Một viên đạn khối lượng m = 2kg đang bay thẳng đứng lên cao thì nổ thành hai mảnh: mảnh nhỏ có khối lượng m = 0,5kg bay ngang với vận tốc v1 = 400m/s, còn mảnh lớn bay lên cao và hợp với đường thẳng đứng góc A = 45°. Vận tốc viên đạn trước khi nó là bao nhiêu?"
+    choices [
+      "100m/s"
+      "150m/s"
+      "200m/s"
+      "220m/s"
+    ]
+    answer "0"
+  }
+  {
+    question "Cũng giả thiết bài trên, vận tốc của mảnh lớn (sau khi nổ) là bao nhiêu?"
+    choices [
+      "162,5m/s"
+      "188,5m/s"
+      "197,3m/s"
+      "214,2m/s"
+    ]
+    answer "1"
+  }
+  {
+    question "Một quả bóng có khối lượng m = 200g bay từ trên cao xuống với vận tốc v = 10m/s chạm vào sàn nằm ngang. Biết góc tới (là góc hợp bởi phương của vận tốc và đường thẳng đứng vuông góc với sàn) a = 60°, sau đó quả bóng chuyển động ngược trở lại dưới góc phản xạ α' =α = 60° cũng vận tốc v. Độ biến thiên động lượng của quả bóng lúc chạm sàn là bao nhiêu?"
+    choices [
+      "1,0m/s"
+      "1,5m/s"
+      "2,0m/s"
+      "2,5m/s"
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật trượt không ma sát xuống mặt phẳng nghiêng góc α= 30° so với mặt phẳng ngang. Lấy g = 10m/s2. Lúc vật có vận tốc 2m/s nó có động lượng là 4kg.m/s thì sau lúc đó 2s vật có động lượng là bao nhiêu?"
+    choices [
+      "10kg.m/s"
+      "18kg.m/s"
+      "24kg.m/s"
+      "30kg.m/s"
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn câu sai."
+    choices [
+      "Vectơ động lượng cùng hướng với vận tốc."
+      "Với một hệ cô lập thì động lượng của hệ được bảo toàn."
+      "Ôtô chuyển động tròn đều thì động lượng cua ôtô được bao toàn."
+      "Nếu hình chiếu án phương Ox của tổng ngoại lực tác dụng lên hệ vật bằng 0 thì hình chiếu lên phương ấy của động lượng của hệ bảo toàn."
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật nặng khối lượng m trượt từ đỉnh mặt phẳng nghiêng ngang góc  = 30. Sau khi rời mặt phẳng nghiêng thì vật rơi vào một xe nho nằm yên trên đường ray. Khối lượng của xe là M = 5m. Bỏ qua ma sát giữa xe và đường ray. Lấy g = 10m/s. Vận tốc của xe sau khi vật rơi vào xe là bao nhiêu?"
+    choices [
+      "1,12m/s"
+      "1,50m/s"
+      "2,43m/s"
+      "3,67m/s"
+    ]
+    answer "0"
+  }
+  {
+    question "Chọn câu đúng: Công do lực thực hiện khi độ lời S cua điểm đặt của lực cùng phương với lực cho phụ thuộc vào:"
+    choices [
+      "khối lượng và thời gian"
+      "độ lớn của lực và độ dời của điểm đặt của lực"
+      "độ lớn của lực và thời gian"
+      "vận vốc và thời gian"
+    ]
+    answer "1"
+  }
+  {
+    question "Chọn câu sai Khi nói về công A của lực thực hiện lúc độ dời S của điểm đặt của hợp lực với phương của lực góc"
+    choices [
+      "A = F.S.cos"
+      "A là công động khi α<2"
+      "A là công cản khi 2<α<π"
+      "Không thực hiện công khi α=2"
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn câu đúng"
+    choices [
+      "Công suất bằng tích của công và thời gian thực hiện công."
+      "Công suất là đại lượng vectơ."
+      "Đơn vị công suất là Jun."
+      "Điểm đặt của lực F⃑ chuyển dời theo hướng của F⃑ thì công suất của lực F là P = F.v"
+    ]
+    answer "3"
+  }
+  {
+    question "Chọn câu sai"
+    choices [
+      "Hiệu suất của mày là thương số giữa công đo lực phát động thực hiện và công có ích."
+      "Công là đại lượng vô hướng"
+      "Đơn vị công suất là oat(w)"
+      "Kilooát giờ (kWh) là một đơn vị công"
+    ]
+    answer "0"
+  }
+  {
+    question "Một con ngựa kéo chiếc xe đi với vận tốc v = 14,4km/h trên đường nằm ngang. Biết lực kéo là F = 500N và hợp với phương nằm ngang góc α=30°. Công của con ngựa trong thời gian 30 phút là bao nhiêu?"
+    choices [
+      "3,12.10^6J"
+      "3,56.10^6J"
+      "1,36.10^6J"
+      "5,28.10^6J"
+    ]
+    answer "0"
+  }
+  {
+    question "Một thang máy khối lượng M = 600kg chuyển động thẳng đứng lên cao h = 10m, lấy g = 10m/s2. Công của động cơ để kéo thang máy đi lên thẳng đều là bao nhiêu?"
+    choices [
+      "6.10^4J"
+      "3.10^5J"
+      "8.10^5J"
+      "2.10^6J"
+    ]
+    answer "0"
+  }
+  {
+    question "Cũng giả thiết như bài trên, khi thang máy đi lên nhanh dần đều với gia tốc a = 1m/s thì công của động cơ là bao nhiêu?"
+    choices [
+      "4,5.10^3J"
+      "3,8.10^4J"
+      "6,6.10^4J"
+      "1,5.10^5J"
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật có khối lượng M = 20kg được buộc vào đầu một đoạn dây. Lấy g = 9,8m/s2. Vật được thả đều xuống đất theo phương thẳng đứng từ độ cao h = 10m. Công để thực hiện chuyển động này là bao nhiêu?"
+    choices [
+      "0J"
+      "570J"
+      "1960J"
+      "-1960J"
+    ]
+    answer "3"
+  }
+  {
+    question "Một ôtô khối lượng M = 2 tấn chuyển động thẳng đều trên đường nằm ngang. Hệ số ma sát giữa ôtô và mặt đường là µ = 0,05. Lấy g = 9,8m/s2. Công của ôtô khi nó chuyển động được quãng đường S = 1000m là bao nhiêu?"
+    choices [
+      "0J"
+      "4,9.10^3J"
+      "9,8.10^5J"
+      "-9,8.10^5J"
+    ]
+    answer "2"
+  }
+  {
+    question "Một chiếc xe có khối lượng m đang chạy với vận tốc v0 trên đường nằm ngang thi tắt máy và hàm phanh. Công của lực hàm để xe dừng lại là biểu thức nào sau đây?"
+    choices [
+      "1/2(mv0^2)"
+      "1/2(mv0^2)"
+      "mv0"
+      "-mv0"
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật có khối lượng m = 5kg đang nằm yên trên mặt nhẵn nằm ngang thì bị lực kéo theo phương ngang F = 10N. Công do lực F thực hiện trong thời gian 2s là bao nhiêu?"
+    choices [
+      "40J"
+      "50J"
+      "60J"
+      "70J"
+    ]
+    answer "0"
+  }
+  {
+    question "Một vật có khối lượng m = 2kg rơi tự do. Lấy g = 9,8m/s. Hỏi sau thời gian 2s trong lực đã thực hiện một công bằng bao nhiêu?"
+    choices [
+      "250,6J"
+      "345,8J"
+      "384,2J"
+      "424,0J"
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật có khối lượng m = 200g được ném thẳng đứng lên cao với vận tốc đầu vo = 15m/s. Lấy g=10m/s2 Công trọng lực khi vật lên độ cao tối đa là bao nhiêu?"
+    choices [
+      "22.5J"
+      "-22,5J"
+      "45,5J"
+      "-45,5J"
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật khối lượng m = 10kg được kéo bởi lực F⃑ nghiêng với mặt sàn nằm ngang góc α=45°. Hệ số ma sát trượt giữa vật và mặt sàn là µ = 0,1. Lấy g = 10m/s2. Công tối thiểu của lực kéo để vật chuyển động được 10m là bao nhiêu?"
+    choices [
+      "50,6J"
+      "62,7J"
+      "75,8J"
+      "90,9J"
+    ]
+    answer "3"
+  }
+  {
+    question "Một Ôtô lên dốc có ma sát, phát biểu nào sau đây là đúng?"
+    choices [
+      "Chỉ có lực ma sát sinh công âm."
+      "Trọng lực sinh công dương."
+      "Phản lực của mặt đường lên ôtô sinh công âm."
+      "Lực kéo của ôtô sinh công âm."
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật có khối lượng m = 1kg trượt từ đỉnh dốc có độ cao h = 2m. Lấy g = 9,8m/s.Công của trọng lực khi vật trượt hết dốc là bao nhiêu?"
+    choices [
+      "19,6J"
+      "25.5J"
+      "32,8J"
+      "43,2J"
+    ]
+    answer "0"
+  }
+  {
+    question "Một ôtô có khối lượng M = 1 tấn chuyển động đều lên dốc nghiêng góc  = 30° so với mặt ngang và đỉnh dốc cao h = 2m (So với chân dốc ). Hệ số ma sát giữa ôtô với mặt đường là µ = 0,05. Lấy g = 10m/s2. Công của động cơ khi ôtô lên đến đỉnh dốc là bao nhiêu?"
+    choices [
+      "2,50.10^4J"
+      "2,17.10^4J"
+      "8,61.10^4J"
+      "1,05.10^4J"
+    ]
+    answer "1"
+  }
+  {
+    question "Một ôtô khối lượng m = 5000kg chuyển động thằng đều trên đoạn đường nằm ngang với vận tốc v = 36km/h. Hệ số ma sát giữa bánh xe và mặt đường là µ = 0,1. Lấy g = 10m/s. Công suất của động cơ ôtô là bao nhiêu?"
+    choices [
+      "P = 2.10^4w"
+      "P = 5.10^4w"
+      "P = 1.10^5w"
+      "P = 8.10^5w"
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật có khối lượng m = 5kg bắt đầu trượt không ma sát trên mặt sàn nằm ngang dưới tác dụng lực kéo F = 10N. Công suất trung bình của lực kéo trong thời gian 2s là bao nhiêu?"
+    choices [
+      "20w"
+      "25w"
+      "30w"
+      "35w"
+    ]
+    answer "0"
+  }
+  {
+    question "Lúc t = 0 một vật có khối lượng m = 10kg bắt đầu trượt không ma sát với gia tốc a = 1,5m/s Công suất tức thời của vật lúc t = 2s là bao nhiêu?"
+    choices [
+      "18w"
+      "25w"
+      "32w"
+      "15w"
+    ]
+    answer "3"
+  }
+  {
+    question "Một ôtô khối lượng m = 5000kg chuyển động nhanh dần đều với gia tốc a = 1m/s trên đoạn đường thẳng nằm ngang. Hệ số ma sát giữa bánh xe và mặt đường là µ = 0,1. Lấy g = 10m/s2. Công suất trung bình của động cơ trong khoảng thời gian vận tốc tăng từ 36km/h đến 54km/h là bao nhiêu?"
+    choices [
+      "2,50.10^4W"
+      "8,65.10^4W"
+      "1,25.10^5W"
+      "5,70.10^5W."
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn câu đúng:"
+    choices [
+      "Động năng của vật không đổi khi vật chuyển động với gia tốc không đổi."
+      "Động năng của vật không đổi khi vận chuyển động tròn đều."
+      "Động năng của vật tăng khi độ lớn gia tốc của vật tăng"
+      "Động năng của vật giảm khi các lực tác dụng lên vật sinh công dương."
+    ]
+    answer "0"
+  }
+  {
+    question "Chọn câu sai:"
+    choices [
+      "Động năng của vật không đôi khi lực tác dụng lên vật vuông góc với vận tốc của vật."
+      "Động năng có tính tương đối."
+      "Vì vận tốc là đại lượng vectơ nên động năng là đại lượng vectơ."
+      "Động năng của vật thay đổi khi hợp lực tác dụng lên vật cùng phương với vận tốc của vật."
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn câu đúng: Một vật chuyển động có khối lượng và vận tốc thay đổi. Động năng của vật không đổi khi:"
+    choices [
+      "Khối lượng tăng 2 lần, vận tốc giảm 2 lần."
+      "Khối lượng giảm 2 lần, vận tốc tăng 2 lần."
+      "Khối lượng tăng 2 lần, vận tốc giảm 4 lần."
+      "Khối lượng tăng 1 lần, vận tốc giảm 2 lần."
+    ]
+    answer "3"
+  }
+  {
+    question "Một toa tàu khối lượng 8 tấn, sau khi khởi hành đã chuyển động nhanh dần đều với gia tốc 1m/s. Động năng của toa tàu sau 10s kể từ lúc khởi hành là:"
+    choices [
+      "4.10^5"
+      "6,10^5J"
+      "10^6J"
+      "5.10^6J"
+    ]
+    answer "0"
+  }
+  {
+    question "Một ô tô có khối lượng 5 tấn đang chuyển động thì hãm phanh để chuyển động chậm dần đều và dừng lại. Động năng của ô tô lúc hàm là 2,5.105 J và gia tốc sau khi hãm là 1 m/s2. Quãng đường ô tô đi được kể từ lúc hãm đến lúc dừng lại là:"
+    choices [
+      "25m"
+      "50m"
+      "100m"
+      "150m"
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật khối lượng m = 100g được ném thẳng đứng lên cao với vận tốc đầu V = 10 m/s. Lấy g = 10 m/s. Động năng của vật sau khi ném 0,5s là:"
+    choices [
+      "1,25J"
+      "1,50J"
+      "2,15J"
+      "2,60J"
+    ]
+    answer "0"
+  }
+  {
+    question "Một ô tô khối lượng 1 tấn đang chạy với vận tốc 54 km/h thì hãm nhẹ làm động năng của nó giảm đi 6,25.10^5J. Vận tốc của ô tô ngay sau khi hãm là bao nhiêu?"
+    choices [
+      "15km/h"
+      "30km/h"
+      "36km/h"
+      "45km/h"
+    ]
+    answer "2"
+  }
+  {
+    question "Một viên đạn khối lượng m = 20g bắn vào bức tường dày 20cm với vận tốc v1 = 500 m/s. Khi ra khỏi bức tường vận tốc viên đạn là v2 = 200 m/s. Lực cản của bức tường lên viên đạn là bao nhiêu?"
+    choices [
+      "2,3.10^2N"
+      "5,8.10^2N"
+      "4,3.10^3N"
+      "10,5.10^3N"
+    ]
+    answer "3"
+  }
+  {
+    question "Một ô tô khối lượng m = 2 tấn đang chuyển động trên đường ngang với vận tốc v = 54 km/h thì hãm phanh. Lực hãm có độ lớn F = 11250N. Quãng đường để ôtô dừng lại kể từ lúc hãm phanh là bao nhiêu?"
+    choices [
+      "10m"
+      "15m"
+      "20m"
+      "25m"
+    ]
+    answer "2"
+  }
+  {
+    question "Một máy bay chiến đấu đang bay với vận tốc v = 1080km/h thì bắn ra một quả đạn. Biết rằng qua đạn bắn ra cùng hướng với chuyển động của máy bay chiến đấu và có vận tốc v0 = 500 m/s đối với máy bay này. Khối lượng viên đạn là m = 2kg. Động năng của viên đạn (đối với đất) là bao nhiêu?"
+    choices [
+      "52.10^4J"
+      "64.10^4J"
+      "85.10^4J"
+      "96.10^4J"
+    ]
+    answer "1"
+  }
+  {
+    question "Một cái máng gồm hai phần: Phần AB đặt nghiêng và phần BCD được uốn thành hình tròn bán kính R nằm trong mặt phẳng thẳng đứng chứa phần máng AB. Một vật được thả ra trên phần B máng AB cho trượt xuống từ độ cao h, sau đó nó sẽ tiếp tục chuyển động trong máng hình tròn. Bỏ qua ma sát khi vật chuyển động. Độ cao tối thiểu (hmin) để vật lên tới được điểm cao nhất D trên máng hình tròn là bao nhiêu?"
+    choices [
+      "R"
+      "1,5R"
+      "2R"
+      "2,5R"
+    ]
+    answer "3"
+  }
+  {
+    question "Chọn câu đúng."
+    choices [
+      "Thế năng trong trường của một vật phụ thuộc vào vị trí của vật trong trọng trường và vận tốc của vật đó."
+      "Khi vật giảm độ cao, thế năng của vật giảm nên trọng lực sinh công âm."
+      "Thế năng của hệ kín gồm vật – trái đất luôn luôn lớn hơn thế năng của vật trong trọng trường."
+      "Thế năng trọng trường được xác định sai kém một hằng số cộng."
+    ]
+    answer "3"
+  }
+  {
+    question "Chọn câu sai:"
+    choices [
+      "Công của trọng lực không phụ thuộc hình dạng đường đi mà chỉ phụ thuộc các vị trí đầu và cuối."
+      "Động năng của một vật tăng thì thế năng của vật ấy cũng tăng."
+      "Khi vật đi từ thấp lên cao thì công trọng lực là công cản."
+      "Khi vật chuyển động trên một quỹ đạo khép kín thì công trong lực bằng 0."
+    ]
+    answer "1"
+  }
+  {
+    question "Chọn câu đúng."
+    choices [
+      "Một vật nằm yên thì chắc chắn thế năng bằng 0."
+      "Một vật chuyển động thì chắc chắn có thế năng khác không."
+      "Khi độ biến dạng của lò xo tăng gấp đôi thì thế năng đàn hồi của lò xo ấy tăng gấp 4"
+      "Khi độ biến dạng của lò xo tăng thêm thi công của lực đàn hồi là công động."
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật nặng khối lượng m = 2kg có thể nặng 60J đối với mặt đất. Lấy g = 10m/s2.Vật ở độ cao bằng bao nhiêu?"
+    choices [
+      "1m"
+      "2m"
+      "0,3m"
+      "-1m"
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật nặng khối lượng 3kg được chuyển từ đáy giếng sau 5m (so với mặt đất) lên độ cao 2m (so với mặt đất). Lấy g = 10m/s. Công của trọng lực khi di chuyên vật nói trên là bao nhiêu?"
+    choices [
+      "-210J"
+      "210J"
+      "-350J"
+      "350J"
+    ]
+    answer "0"
+  }
+  {
+    question "Một lò xo lúc đầu không biến dạng. Tác dụng lực F dọc theo trục của lò xo thì nó dãn ra 2cm và thế năng đàn hồi của lo xo lúc này là 3.102 J Độ cứng k của lò xo là bao nhiêu?"
+    choices [
+      "70N/m"
+      "100N/m"
+      "150N/m"
+      "200N/m"
+    ]
+    answer "2"
+  }
+  {
+    question "Một lò xo lúc đầu không biến dạng. Tác dụng lực F = 5N dọc theo trục của lò xo thì nó dãn ra 4cm. Thế năng đàn hồi của lo xo lúc này là bao nhiêu?"
+    choices [
+      "0,05J"
+      "0,10J"
+      "0,15J"
+      "0,20J"
+    ]
+    answer "1"
+  }
+  {
+    question "Một lò xo có độ cứng k = 100N/m. Công lực đàn hồi thực hiện khi lò xo được kéo dãn từ 2cm đến 3cm là bao nhiêu?"
+    choices [
+      "2,0.10^2J"
+      "-2,5.10^2J"
+      "3.10^2J"
+      "-3,5.10^2J"
+    ]
+    answer "1"
+  }
+  {
+    question "Một lò xo có độ cứng k = 50N/m treo thẳng đứng. Đầu dưới lò xo có treo vật nặng khối lượng m = 100g. Lấy g = 10m/s2 và chọn mốc thế năng tại vị trí đầu dưới của lò xo lúc nó không biến dạng. Thế năng tổng cộng của hệ lò xo - vậy lúc vật ở vị trí cân bằng là bao nhiêu?"
+    choices [
+      "-0,011J"
+      "0,01J"
+      "-0,03J"
+      "0,03J"
+    ]
+    answer "0"
+  }
+  {
+    question "Chọn câu đúng"
+    choices [
+      "Cơ năng là đại lượng luôn luôn dương"
+      "Khi vật chịu tác dụng của lực đàn hồi và lực ma sát thì cơ năng của vật bảo toàn"
+      "Khi vật chịu tác dụng của trọng lực và lực cản thì công của lực cân bằng độ biến thiên cơ năng của vật."
+      "Cơ năng của vật tỉ lệ với bình phương vận tốc."
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn câu sai:"
+    choices [
+      "Một vật chuyển động nhanh dần đều không ma sát trên đường nằm ngang, khi vận tốc tăng gấp đôi thì cơ năng của vật ấy tăng gấp 1."
+      "Một vật nằm yên thì cơ năng bằng thế năng"
+      "Thế năng của vật không đổi, động lượng tăng thì cơ năng cũng tăng (khi vật không chịu lực cản)"
+      "Ném thẳng đứng một vật lên cao, bỏ qua lực cản không khí, khi vật dừng lại thế năng trong lực lúc này bằng động năng mới ném (chọn mốc thế năng tại chỗ ném)."
+    ]
+    answer "0"
+  }
+  {
+    question "Một vật nhỏ khối lượng m được ném thẳng đứng từ O với vận tốc v0 và vật dừng lại tại A(OA = h). Gia tốc trọng trường là g."
+    choices [
+      "WO = 1/2mv0^2; WA mgh"
+      "WO = 1/2mv0^2; WA = 0"
+      "WO = 1/2mv0^2 + mgh; WA = mgh"
+      "WO = 1/2mv0^2 – mgh; WA = 0"
+    ]
+    answer "3"
+  }
+  {
+    question "Một hòn đá được ném đi với vận tốc vO = 10m/s theo phương xiên góc ở độ cao h =5m so với mặt đất. Bỏ qua sức cản không khí. Lấy g = 10m/s2. Vận tốc của vật khi chạm đất là bao nhiêu?"
+    choices [
+      "12,50m/s"
+      "14,14m/s"
+      "15,50m/s"
+      "20,62m/s"
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật có khối lượng m = 200g trượt không ma sát từ trạng thái nghỉ tại A trên mặt phẳng nghiêng AB, sau đó chạm đất và lún xuống đất một đoạn thẳng dài 2cm. Biết A cách đất h = 1,3m. Lấy g= 10m/s2. Lực cản trung bình của đất tác dụng lên vật là bao nhiêu?"
+    choices [
+      "50N"
+      "130N"
+      "80N"
+      "150N"
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật được ném xiên góc α so với phương ngang (HV). Bỏ qua lực cản không khí. Để thế năng và động năng tại điểm cao nhất A bằng nhau thì α bằng bao nhiêu?"
+    choices [
+      "α = 15"
+      "α = 30"
+      "α = 45"
+      "α =60"
+    ]
+    answer "2"
+  }
+  {
+    question "Ở đầu sợi dây không dãn chiều dài l có gắn một vật nặng. Lúc đầu sợi dây thẳng đứng, ta truyền cho vật nặng vận tốc vo⃑ theo phương nang để nó chuyển động tròn trong mặt phẳng thẳng đứng xung quanh điểm treo O. Gia tốc trọng trường là g. vo có giá trị tối tiểu bằng bao nhiêu?"
+    choices [
+      "Gl"
+      "g/l"
+      "căn gl"
+      "căn 5gl"
+    ]
+    answer "3"
+  }
+  {
+    question "Con lắc đơn gồm vật nhỏ khối lượng m được treo bằng dây không dãn có chiều dài l vào điểm cố định I. Kéo vật ra khỏi vị trí cân bằng đến A sao cho dây treo hợp với phương ngang thẳng đứng góc α0 rồi thả nhẹ. Bỏ qua khối lượng dây và coi lực cản không khí không đáng kể. Gia tốc trọng trường là g. Lúc vật chuyển động đến vị trí B mà dây treo hợp với phương thẳng đứng góc α thì vận tốc của vật là bao nhiêu?"
+    choices [
+      "√gl(cosα+cos0)"
+      "√g/l(sinα+sinα0)"
+      "√2gl(cosα-cosα0)"
+      "√g/l(sinα-sinα0)"
+    ]
+    answer "2"
+  }
+  {
+    question "Kéo con lắc đơn ra khỏi vị trí cân bằng thẳng đứng gócc α , rồi thả cho chuyển động. Biết khối lượng vật nặng là m, gia tốc trọng trường là g. Sức căng lây T là bao nhiêu khi còn lắc hợp với phương thẳng đứng góc α"
+    choices [
+      "T = mg"
+      "T = mg(3cosα - 2cosα)"
+      "T = mgcosa"
+      "T = mg(cosa + cos)."
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật trượt không vận tốc đầu từ đỉnh A của mặt phẳng AB dài 3m nghiêng góc α = 30O so với mặt phẳng nằm ngang (HV). Hệ số ma sát giữa vật và mặt phẳng là µ = 0,1. Lấy g = 10 m/s2. Vận tốc của vật khi đến B là bao nhiêu?"
+    choices [
+      "4m/s"
+      "5m/s"
+      "6m/s"
+      "7m/s"
+    ]
+    answer "1"
+  }
+  {
+    question "Quả cầu thứ nhất khối lượng ml = 100g chuyển động với độ lớn vận tốc là v1= 24m/s. Quả cầu thứ hai khối lượng m2 = 200g chuyển động với độ lớn vận tốc v2 = 12m/s. Hai quả cầu chuyển động ngược chiều đến va chạm nhau. Biết va chạm là đàn hồi va trực diện. Sau va chạm độ lớn vận tốc của chúng lần lượt v1' và v2' bằng bao nhiêu?"
+    choices [
+      "v1'=6m/s v2'=5m/s"
+      "v1'=13m/sv2'=10m/s"
+      "v1'=24m/s v2'=12m/s"
+      "v1'=30m/sv2'=25m/s"
+    ]
+    answer "2"
+  }
+  {
+    question "Một quả cầu khối lượng m = 150g chuyển động với vận tốc v1 = 10m/s đến va chạm vào quả cầu thứ hai đang đứng yên có khối lượng m2 = 50g. Coi va chạm là đàn hồi và trực diện Vận tốc của hai quả cầu sau va chạm là bao nhiêu?"
+    choices [
+      "v’1 = 5m/s; v’2 = 15m/s"
+      "v’1 = 8m/s; v’2 = 20m/s"
+      "v’1 = 10m/s; v’2 = 25m/s"
+      "v’1 = 12m/s; v’2 = 30m/s"
+    ]
+    answer "0"
+  }
+  {
+    question "Một vật khối lượng m1 = 100g chuyển động với vận tốc v2 = 3m/s đến va chạm vào vật khác có khối lượng m2 = 50g đang đứng yên Sau va chạm hai vật dính vào nhau (va chạm mềm) cùng chuyển động với vận tốc v1 v2 bằng bao nhiêu?"
+    choices [
+      "1m/s"
+      "2m/s"
+      "3m/s"
+      "4m/s"
+    ]
+    answer "1"
+  }
+  {
+    question "Một búa máy có khối lượng ml = 100kg rơi từ độ cao h = 3m (so với đầu cọc) để đóng một cọc có khối lượng m2 = 200. Mỗi lần búa đóng lên cọc thì cọc và búa cùng chuyển động với vận tốc và cọc lún xuống được S = 5cm. Lây g = l0m/s2 Lực cản của đất lên cọc là bao nhiêu"
+    choices [
+      "3,3.10^4N"
+      "4,2.10^5N"
+      "5,6.10^6N"
+      "8,2.10^6N"
+    ]
+    answer "0"
+  }
+  {
+    question "Hai quả cầu giống nhau. Một quả cầu chuyển động đến va chạm đàn hồi vào quả cầu kia đang đứng yên nhưng lệch về một phía (va chạm đàn hồi không xuyên tâm). Góc hợp bởi phương chuyển động của ai quả cầu sau va chạm là bao nhiêu?"
+    choices [
+      "30.0"
+      "45.0"
+      "60.0"
+      "90.0"
+    ]
+    answer "3"
+  }
+  {
+    question "Một túi cát có khối lượng M = 5kg được treo vào điểm O và ban đầu đứng yên. Ta bắn theo phương nằm ngang một viên đạn có khối lượng m = 10g vào túi cát với vận tốc v = 400m/s và sau dó đạn nằm yên trong túi cát. Ðộng năng đã chuyển thành nhiệt chiếm bao nhiêu phần trăm?"
+    choices [
+      "30,2%"
+      "52,3%"
+      "81,5%"
+      "99,8%"
+    ]
+    answer "3"
+  }
+  {
+    question "Chọn công thức đúng. Gọi a1, a2 là hai bán trụ lớn của quỹ đạo hai hành tinh quay quanh mặt trời và T1, T2 là chu kì quay của các hành tinh ấy thì:"
+    choices [
+      "a1/a2=T1/T2"
+      "(a1/a2)^2=(T1/T2)^2"
+      "(a1/a2)^3=(T1/T2)^2"
+      "(a1/a2)^3=(T2/T1)^2"
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn câu sai."
+    choices [
+      "Mọi hành tinh đều chuyển động trên các quỹ đạo elip với mặt trời là một tiêu điểm."
+      "Coi quỹ đạo chuyển động của các hành tinh gần đúng là tròn thì lực hấp dẫn tác dụng lên hành tinh này đã gây ra gia tốc hướng tâm."
+      "Vận tốc để đưa vệ tinh lên quỹ đạo tròn quanh trái đất là tốc độ vũ trụ cấp I"
+      "Nếu vận tộc để đưa vệ tinh lên quỹ đạo lớn hơn tốc độ vũ trụ cấp I thì vệ tinh sẽ đi xa khỏi trái đất theo quỹ đạo parabol."
+    ]
+    answer "3"
+  }
+  {
+    question "Một hành tinh đang quay quanh mặt trời (khối lượng mặt trời là M) theo quỹ đạo coi như tròn với bán kính R. Chu kì quay T của hành tinh được tính bởi công thức nào sau đây? (trong đó G là hằng số hấp dẫn)"
+    choices [
+      "T^2=(4π^2/GM)R^3"
+      "T^3=(2π/GM)R^2"
+      "T=(2π/GM)^2.R"
+      "T=(2π/GM)R^3"
+    ]
+    answer "0"
+  }
+  {
+    question "Một vệ tinh chuyển động tròn quanh tâm trái đất và cách tâm này 6600km với chu kì T = 89 phút. Biết hằng số hấp dẫn G=6,67.1011N.m2kg2. Khối lượng trái đất là bao nhiêu?"
+    choices [
+      "5.10^20kg"
+      "6.10^24kg"
+      "3.10^25kg"
+      "8.10^26kg"
+    ]
+    answer "1"
+  }
+  {
+    question "Một vệ tinh được đặt trên một quỹ đạo tròn có bán kính bằng nửa bán kính quỹ đạo của mặt trăng cùng quay xung quanh trái đất. Biết chu kì quay cua mặt trăng xung quanh trái đất là 27,5 ngày. Chu kì quay cua vệ tinh xung quanh trái đất là bao lâu?"
+    choices [
+      "5,3 ngày"
+      "6,4 ngày"
+      "8,2 ngày"
+      "9,7 ngày"
+    ]
+    answer "3"
+  }
+  {
+    question "Trái đất quay quanh mặt trời và một quỹ đạo gần tròn có bán kính trung bình 150 triệu km. Biết khối lượng mặt trời là 1,97.1030kg. Lấy G = 6,67.10-11N.m2kg2. Chuyển động của trái đất quanh mặt trời là bao lâu?"
+    choices [
+      "3,18.10^7s"
+      "7,52.10^7s"
+      "2,83.10^8s"
+      "6,47/10^8s"
+    ]
+    answer "0"
+  }
+  {
+    question "Cũng gia thiết như bài 20.6, vận tốc trung bình của tâm trái đất là bao nhiêu?"
+    choices [
+      "15,km/s"
+      "29,6km/s"
+      "34,8km/s"
+      "67,5m/s"
+    ]
+    answer "1"
+  }
+  {
+    question "Hiện tượng thủy triều xảy ra do"
+    choices [
+      "Chuyển động của các dòng hải lưu."
+      "Trái Đất quay quanh Mặt Trời."
+      "Lực hấp dẫn của Mặt Trăng-Mặt Trời."
+      ""
+    ]
+    answer "3"
+  }
+  {
+    question "Các hòn đá rơi xuống mặt đất"
+    choices [
+      "Là do lực hút Trái Đất lớn hơn lực hút của các hòn đá lên Trái Đất."
+      "Sẽ luôn rơi nhanh chậm khác nhau do lực hút Trái Đất tác dụng lên chúng khác nhau."
+      "Với cùng gia tốc khi lực cản không khí tác dụng lên chúng rất nhỏ so với trọng lượng của chúng."
+      "Với gia tốc bằng gia tốc khi chúng rơi trên Mặt Trăng."
+    ]
+    answer "2"
+  }
+  {
+    question "Ở độ cao h so với mặt đất, trọng lực tác dụng vào vật có khối lượng m chỉ còn bằng một phần tư so với khi vật ở trên mặt đất. Bán kính trái đất là R=6400km. Độ cao h bằng"
+    choices [
+      "400 km."
+      "6400 km."
+      "3200 km."
+      "800 km."
+    ]
+    answer "1"
+  }
+  {
+    question "Hai quả cầu có khối lượng lần lượt m1 =400g và m2 =200g. Khoảng cách giữa hai tâm của
+hai quả cầu là 60m. Tại M nằm trên đường thẳng nối hai tâm của hai quả cầu có vật khối
+lượng m. Biết độ lớn lực hút của m1 tác dụng lên m bằng 8 lần độ lớn lực hút của m2 tác
+dụng lên vật m. Điểm M cách m1"
+    choices [
+      "40 cm."
+      "20 cm."
+      "10 cm."
+      "80 cm."
+    ]
+    answer "1"
+  }
+  {
+    question "Xét một sợi dây có khối lượng không đáng kể, một đầu cố định , đầu còn lại treo vật nặng
+khối lượng m. Phát biểu nào sau đây đúng?"
+    choices [
+      "Dây chỉ dãn khi treo vật nên không có lực đàn hổi xuất hiện."
+      "Dây không có độ cứng nên không có lực đàn hồi xuất hiện."
+      "Khi vật nặng đứng yên cân bằng thì vật chỉ chịu tác dụng của trọng lực."
+      "Lực căng dây chính là lực đàn hồi khi dây bị kéo dãn."
+    ]
+    answer "3"
+  }
+  {
+    question "Đặc điểm nào sau đây không là đặc điểm của lực đàn hồi xuất hiện ở lò xo?"
+    choices [
+      "Xuất hiện ở cả hai đầu lò xo."
+      "Trong giới hạn đàn hồi, độ lớn lực tỉ lệ thuận với độ biến dạng."
+      "Chỉ xuất hiện khi lò xo bị kéo hoặc khi treo một vật nặng vào lò xo."
+      "Tác dụng vào các vật tiếp xúc với nó làm nó biến dạng."
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật có khối lượng m =3 kg treo vào một lò xo nó dãn ra 15 cm. Lấy g =10m/s2. Khi treo
+một vật khác có khối lượng 2kg thì lò xo dãn"
+    choices [
+      "10 cm."
+      "12 cm."
+      "7,5 cm."
+      "8 cm."
+    ]
+    answer "0"
+  }
+  {
+    question "Một lò xo được treo thẳng đứng. Khi treo vật có khối lượng m1 =1kg vào đầu lò xo thì lò xo có chiều dài l1 =20cm. Nếu thay m1 bằng vật có khối lượng m2 =2kg vào lò xo thì lò xo có chiều dài l2 =30cm. Lấy g =10m/s2. Độ cứng k và chiều dài tự nhiên l0 của lò xo lần lượt là"
+    choices [
+      "100 N/m; 10cm."
+      "200 N/m; 10cm."
+      "100 N/m; 20cm."
+      "200 N/m; 20cm."
+    ]
+    answer "0"
+  }
+  {
+    question "Nhận xét nào sau đây đúng khi nói về trọng tâm của vật rắn?"
+    choices [
+      "Lực tác dụng vào vật có giá đi qua trọng tâm sẽ làm cho vật chuyển động quay."
+      "Trọng tâm của vật luôn đặt tại một điểm nằm trên vật."
+      "Trọng tâm là điểm đặt của trọng lực tác dụng lên vật."
+      "Lực tác dụng lên vật có giá đi qua trọng tâm sẽ làm cho vật vừa quay vừa tịnh tiến."
+    ]
+    answer "1"
+  }
+  {
+    question "Cho một hệ gồm hai chất điểm m1 = 0,05 kg đặt tại điểm P và m2 = 0,1 kg đặt tại điểm Q.
+Cho PQ = 15 cm. Trọng tâm của hệ nằm ở vị trí nào?"
+    choices [
+      "Nằm  ngoài khoảng PQ."
+      "Cách P một khoảng 10 cm và cách Q một khoảng 5 cm."
+      "Cách P một khoảng 5 cm."
+      "Cách Q một khoảng 10 cm."
+    ]
+    answer "2"
+  }
+  {
+    question "Hai lực F1 và F2 song song, ngược chiều đặt tại hia đầu thanh AB có hợp lực F đặt tại O cách A là 8 cm, cách B là 2 cm và có độ lớn F = 10,5 N. Độ lớn của F1 và F2 là?"
+    choices [
+      "3,5 N và 14 N."
+      "14 N và 3,5 N."
+      "7 N và 3,5 N."
+      "3,5 N và 7 N."
+    ]
+    answer "0"
+  }
+  {
+    question "Có ba viên gạch giống nhau, mỗi viên có chiều dài L. Ba viên gạch này được xếp chồng lên
+nhau sao cho viên gạch trên đưa ra một phần so với viên gạch dưới. Chiều dài lớn nhất của
+chồng gạch mà không bị đổ bằng?"
+    choices [
+      "5L/4."
+      "7L/4."
+      "2L."
+      "1,5 L."
+    ]
+    answer "1"
+  }
+  {
+    question "Một thanh chắn đường AB dài 7,8 m có trọng lượng 2100 N và có trọng tâm G ở cách đầu bên trái 1,2 m. Thanh có thể quay quanh một trục O nằm ngang ở cách đầu bên trái 1,5 m. Để giữ thanh ấy nằm ngang phải tác dụng vào đầu bên phải một lực có giá trị nào sau đây?"
+    choices [
+      "2100 N."
+      "100 N."
+      "780 N."
+      "150 N."
+    ]
+    answer "1"
+  }
+  {
+    question "Những kết luận nào dưới đây là sai?"
+    choices [
+      "Momen lực là đại lượng đặc trưng cho tác dụng làm quay vật của lực có độ lớn bằng tích độ lớn của lực và chiều dài tay đòn của nó."
+      "Momen lực có giá trị khác 0 khi giá của lực cắt trục quay."
+      "Điều kiện cân bằng của một vật có trục quay cố định là tổng các momen lực làm vật quay theo chiều kim đồng hồ bằng tổng các momen lực làm vật quay theo chiều ngược lại."
+      "Momen của ngẫu lực chỉ phụ thuộc vào độ lớn của lực và tay đòn của ngẫu lực, trái lại không phụ thuộc vào vị trí của trục quay vuông góc với mặt phẳng của ngẫu lực."
+    ]
+    answer "1"
+  }
+  {
+    question "Ba quả cầu đặc bằng chì, bằng sắt và bằng gỗ có thể tích bằng nhau, được thả rơi không vận tốc đầu từ cùng một độ cao xuống. Biết lực cản của không khí tác dụng vào các quả cầu bằng nhau. Khi đó?"
+    choices [
+      "Quả cầu bằng chì rơi chạm đất trước"
+      "Quả cầu bằng sắt rơi chạm đất trước"
+      "Quả cầu bằng gỗ rơi chạm đất trước"
+      "Ba quả cầu rơi chạm đất cùng lúc"
+    ]
+    answer "0"
+  }
+  {
+    question "Lực hấp dẫn do Trái Đất tác dụng lên Mặt Trăng tác dụng lên Trái Đất luôn?"
+    choices [
+      "Cùng phương, cùng chiều."
+      "Cùng độ lớn và cùng chiều."
+      "Cùng phương, ngược chiều và cùng độ lớn."
+      "Cùng phương, cùng chiều và cùng độ lớn."
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật khối lượng 2,5 kg đang nằm yên trên mặt phẳng ngang thì chịu tác dụng của lực kéo 15 N theo phương ngang và bắt đầu chuyển động. Biết trong 1 phút đầu tiên sau khi chịu tác dụng lực, vật đi được 2700 m. Coi lực cản tác dụng vào vật không đổi trong quá trình chuyển động. Lực cản tác dụng vào vật bằng?"
+    choices [
+      "11,25 N."
+      "13,5 N."
+      "9,75 N."
+      "15,125 N."
+    ]
+    answer "0"
+  }
+  {
+    question "Một xe ô tô có khối lượng 1,2 tấn, chuyển động chậm dần đều cho đến khi dừng lại thì đi được quãng đường 96 m. Biết quãng đường xe đi được trong giây đầu tiên gấp 15 lần quãng đường xe đi được trong giây cuối. Độ lớn của hợp lực tác dụng vào xe trong quá trình chuyển động chậm dần đều là?"
+    choices [
+      "2500 N."
+      "1800 N."
+      "3600 N."
+      "2900 N."
+    ]
+    answer "2"
+  }
+  {
+    question "Từ vị trí A, một vật được ném ngang với tốc độ vo = 2 m/s. Sau đó 1s, tại vị trí B có cùng độ cao với A người ta ném thẳng đứng một vật xuống dưới với tốc độ ban đầu v0’. Biết AB = 6 m và hai vật gặp nhau trong quá trình chuyển động. Lấy g = 10 m/s2. Vận tốc v0’ gần nhất với giá trị nào sau đây?"
+    choices [
+      "15 m/s."
+      "10 m/s."
+      "12 m/s."
+      "9 m/s."
+    ]
+    answer "2"
+  }
+  {
+    question "Một vật có khối lượng 0,5 kg trượt không ma sát trên một mặt phẳng ngang với tốc độ 5 m/s đến đập vào một bức tường thẳng đứng theo phương vuông góc với tường. Sau va chạm vật bật ngược trở lại phương cũ với tốc độ 2 m/s. Thời gian tương tác là 0,2 s. Lực do tường tác dụng lên vật có độ lớn bằng?"
+    choices [
+      "1750 N."
+      "17,5 N"
+      "175 N."
+      "1,75 N."
+    ]
+    answer "1"
+  }
+  {
+    question "Một khẩu đại bác có khối lượng 4 tấn, bắn đi một viên đạn theo phương ngang có khối lượng 10 kg với vận tốc 400 m/s. Coi như lúc đầu, hệ đại bác và đạn đứng yên. Tốc độ giật lùi của đại bác ngay sau đó bằng?"
+    choices [
+      "3 m/s."
+      "2 m/s."
+      "4 m/s."
+      "1 m/s."
+    ]
+    answer "3"
+  }
+  {
+    question "Lực nào sau đây không phải lực thế?"
+    choices [
+      "Lực ma sát."
+      "Trọng lực."
+      "Lực đàn hồi."
+      "Lực hấp dẫn."
+    ]
+    answer "0"
+  }
+  {
+    question "Một vật có khối lượng 1 kg trượt không vận tốc đầu từ đỉnh một mặt phẳng nghiêng dài 3 m, cao 1,2 m. Vận tốc của vật ở chân mặt phẳng nghiêng bằng 2 m/s. Lấy g = 10 m/s2. Công của lực ma sát bằng?"
+    choices [
+      "– 10 J."
+      "– 1 J."
+      "– 20 J."
+      "– 2 J."
+    ]
+    answer "0"
+  }
+  {
+    question "Một động cơ điện có hiệu suất là 80%, phải kéo đều một buồng thang máy nặng 400 kg đi lên thẳng đúng 1200 m trong thời gian 2 phút theo đường thông của một mỏ thanh. Lấy g = 10 m/s2. Công suất điện cần sử dụng là?"
+    choices [
+      "3,2 kW."
+      "5,0 kW."
+      "50 kW."
+      "32 kW."
+    ]
+    answer "2"
+  }
+  {
+    question "Hai vật có cùng khối lượng, chuyển động cùng một tốc độ nhưng theo hai phương khác nhau. Tìm câu sai?"
+    choices [
+      "Hai vật có cùng động năng nhưng có động lượng khác nhau."
+      "Động lượng của hệ hai vật gấp đôi động lượng của mỗi vật."
+      "Độ lớn động lượng hai vật bằng nhau vì chúng có cùng khối lượng và vận tốc."
+      "Động năng của hệ hai vật gấp đôi động năng của mỗi vật."
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật khối lượng 1,5 kg chuyển động tới va chạm đàn hồi xuyên tâm với một vật khác lúc đầu đứng yên. Vật thứ nhất sau va chạm tiếp tục chuyển động theo phương ban đầu nhưng với vận tốc bằng một nửa vận tốc đầu của nó. Khối lượng của vật bị va chạm là?"
+    choices [
+      "4,5 kg."
+      "1 kg."
+      "0,75 kg."
+      "0,5 kg."
+    ]
+    answer "3"
+  }
+  {
+    question "Nhận xét nào sau đây là sai? Khi vật chỉ chịu tác dụng của các lực thế thì?"
+    choices [
+      "Cơ năng có giá trị không đổi"
+      "Độ tăng động năng bằng độ giảm thế năng."
+      "Độ giảm động năng bằng độ tăng thế năng."
+      "Động năng biến thiên tỉ lệ nghịch với thế năng."
+    ]
+    answer "3"
+  }
+  {
+    question "Cánh tay đòn là khoảng cách từ"
+    choices [
+      "Điểm đặt của lực đến trục quay."
+      "Trục quay đến vật."
+      "Trục quay đến giá của lực."
+      "Trục quay đến trọng tâm của vật."
+    ]
+    answer "2"
+  }
+  {
+    question "Lực tác dụng vào vật làm cho vật quay quanh một trục có giá"
+    choices [
+      "Song song với trục quay."
+      "Cắt trục quay."
+      "Nằm trong mặt phẳng song song trục quay."
+      "Nằm trong mặt phẳng vuông góc với trục quay và không cắt trục quay."
+    ]
+    answer "3"
+  }
+  {
+    question "Mức quán tính của một vật rắn không phụ thuộc vào"
+    choices [
+      "Khối lượng riêng của vật."
+      "Khối lượng của vật."
+      "Vị trí trục quay."
+      "Tốc độ góc của vật"
+    ]
+    answer "3"
+  }
+  {
+    question "Chọn câu phát biểu đúng : Một  quả bóng khối lượng m đang bay ngang với vận tốc v thì đập vào bức tường và bật trở lại với cùng một vận tốc. Độ biến thiên động lượng của quả bóng là"
+    choices [
+      "m.v"
+      "–m.v"
+      "2mv"
+      "- 2m.v"
+    ]
+    answer "3"
+  }
+  {
+    question "Đơn vị nào không phải là đơn vị của công suất?"
+    choices [
+      "N.s"
+      "HP"
+      "N.m/s"
+      "J/s"
+    ]
+    answer "0"
+  }
+  {
+    question "Chọn câu trả lời đúng:Một vật được thả rơi tự do ,trong quá trình vật rơi :"
+    choices [
+      "Động năng của vật không thay đổi."
+      "Thế năng của vật không thay đổi."
+      "Tổng động năng và thế năng của vật không đổi."
+      "Tổng động năng và thế năng của vật luôn thay  đổi."
+    ]
+    answer "2"
+  }
+  {
+    question "Cho một lò xo có độ cứng 3N/cm, nằm ngang ở trạng thái ban đầu không biến dạng. Khi tác dụng một lực F kéo lò xo theo phương ngang thì lò xo giãn ra 2cm. Thế năng đàn hồi của lò xo lúc này là:"
+    choices [
+      "3 J."
+      "6 J."
+      "0,06 J."
+      "6.10^6 J."
+    ]
+    answer "2"
+  }
+  {
+    question "Chọn câu phát biểu đúng :  Động lượng được tính bằng"
+    choices [
+      ". N/s"
+      "N.s"
+      ". N.m"
+      "N.m/s"
+    ]
+    answer "1"
+  }
+  {
+    question "Một vật có khối lượng 1kg rơi tự do. Lấy g = 9,8m/s2.  Sau 2s kể từ khi bắt đầu rơi, động lượng của vật đó bằng:"
+    choices [
+      "19,6 N.s"
+      "9,8kgm/s."
+      "19,6J."
+      "192,08kgm/s."
+    ]
+    answer "0"
+  }
+  {
+    question "Một vật được thả tự do từ độ cao h so với mặt đất. Chọn mốc thế năng tại mặt đất. Độ cao mà động năng bằng   thế năng là:"
+    choices [
+      "h/2"
+      "2h/3"
+      "h/3"
+      "h"
+    ]
+    answer "1"
+  }
+  {
+    question "Khi một tên lửa chuyển động, cả vận tốc và khối lượng của nó đều thay đổi. Khi khối lượng giảm một nửa và vận tốc tăng lên gấp đôi thì động năng của tên lửa sẽ:"
+    choices [
+      "không đổi."
+      "tăng gấp 2."
+      "tăng gấp 4."
+      "tăng gấp 8."
+    ]
+    answer "1"
+  }
+  {
+    question "Một lực 20N tác dụng vào một vật m =400g đang nằm yên, thời gian tác dụng 0,015s. Xung lượng tác dụng trong khoảng thời gian đó là:"
+    choices [
+      "0,3 kg.m/s."
+      "1,2 kg.m/s."
+      "120 kg.m/s."
+      "Một giá trị khác."
+    ]
+    answer "0"
+  }
+  {
+    question "Chọn câu phát biểu sai :"
+    choices [
+      "Động lượng là một đại lượng véctơ"
+      "Động lượng luôn được tính bằng tích khối lượng và vận tốc của vật."
+      "Động lượng luôn cùng hướng với vận tốc vì vận tốc luôn luôn dương."
+      "Động lượng luôn cùng hướng với vận tốc vì khối lượng luôn luôn dương."
+    ]
+    answer "2"
+  }
+]
+
+fill_blanks [
+    {
+        question "aaa?"
+        answer "
+            abc [5000] + 3000 = 8000
+            aaa 8000 + [6000] * 0.5 = [11000]
+        "
+    }
+]

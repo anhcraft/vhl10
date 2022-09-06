@@ -1,0 +1,11 @@
+scene {
+    width 800
+    height 600
+    title "Vui Học Lí 10"
+}
+
+prompt {
+    info "Vui Học Lí 10 | Thông báo"
+    ask "Vui Học Lí 10 | Thông báo"
+    error "Vui Học Lí 10 | Cảnh báo"
+}

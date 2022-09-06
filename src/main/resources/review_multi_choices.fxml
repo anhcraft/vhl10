@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url(images/review_background.jpg); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.anhcraft.vhvl10.views.ReviewMultiChoiceView">
+   <children>
+      <StackPane layoutX="34.0" layoutY="30.0" prefHeight="220.0" prefWidth="460.0" style="-fx-background-image: url(images/board.png); -fx-background-size: 100% 100%;">
+         <children>
+            <Label fx:id="question" prefHeight="172.0" prefWidth="406.0" textFill="WHITE">
+               <padding>
+                  <Insets left="15.0" />
+               </padding></Label>
+         </children></StackPane>
+      <VBox fx:id="choices" layoutX="34.0" layoutY="242.0" prefHeight="313.0" prefWidth="460.0" spacing="20.0" style="-fx-background-image: url(images/planks.jpg); -fx-background-size: 100% 100%;">
+         <padding>
+            <Insets left="30.0" top="30.0" />
+         </padding></VBox>
+      <VBox layoutX="518.0" layoutY="30.0" prefHeight="252.0" prefWidth="253.0">
+         <children>
+            <Label fx:id="timeCounter" alignment="CENTER" contentDisplay="CENTER" prefHeight="126.0" prefWidth="253.0" style="-fx-background-color: #346eeb;" text="30:10" textFill="WHITE">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="questionCounter" alignment="CENTER" prefHeight="37.0" prefWidth="253.0" style="-fx-background-color: #ddd;" />
+            <Label fx:id="score" alignment="CENTER" prefHeight="37.0" prefWidth="253.0" style="-fx-background-color: #ddd;" />
+            <Button mnemonicParsing="false" onMouseClicked="#quit" prefHeight="43.0" prefWidth="300.0" style="-fx-border-color: #a8325a; -fx-border-width: 3; -fx-background-color: #f05d8f;" text="Thoát">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children></VBox>
+   </children>
+</Pane>
